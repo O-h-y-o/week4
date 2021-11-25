@@ -44,7 +44,7 @@ export default function makeCard() {
         <hr />
       </InputWrap>
       <Center>
-        <button
+        <Button
           onClick={async () => {
             await dispatch(
               addCardFB({
@@ -56,14 +56,14 @@ export default function makeCard() {
           }}
         >
           메모남기기
-        </button>
+        </Button>
       </Center>
     </Wrap>
   );
 }
 
 const Wrap = styled.div`
-  width: 300px;
+  width: 500px;
   margin: auto;
   justify-content: center;
 `;
@@ -78,4 +78,21 @@ const InputWrap = styled.div``;
 
 const Input = styled.input`
   width: 100%;
+  height: 50px;
+`;
+
+const Button = styled.button`
+  width: 150px;
+  /* height: 50px; */
+  border: 1px solid #000;
+  border-radius: 3px;
+  box-sizing: border-box;
+  outline: none;
+  font-size: 30px;
+  cursor: pointer;
+  transition: 0.5s;
+
+  &:hover {
+    transform: scale(1.1);
+  }
 `;

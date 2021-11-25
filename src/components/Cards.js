@@ -51,7 +51,7 @@ const CardWrap = styled.div`
   margin: auto;
   border-left: 1px solid cornflowerblue;
   border-right: 1px solid cornflowerblue;
-  border-radius: 10%;
+  border-radius: 5%;
   background-color: cornflowerblue;
 `;
 

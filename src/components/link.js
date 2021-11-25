@@ -17,10 +17,9 @@ const Center = styled.div`
   position: fixed;
   top: 0;
   bottom: 0;
-  right: 100px;
+  right: 50px;
   text-align: center;
   border-radius: 50%;
-  /* overflow: hidden; */
   text-decoration: none;
 
   & a {
@@ -29,6 +28,7 @@ const Center = styled.div`
     height: 100px;
     text-decoration: none;
     color: #000;
+    border: 1px solid #fff;
     background-color: #999;
     line-height: 6.5;
     overflow: hidden;
@@ -39,11 +39,4 @@ const Center = styled.div`
   & a:hover {
     transform: scale(1.3);
   }
-`;
-
-const Memo = styled.div`
-  background-color: #eee;
-  line-height: 6.5;
-  border-radius: 50%;
-  overflow: hidden;
 `;
