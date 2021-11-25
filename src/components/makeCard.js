@@ -16,12 +16,6 @@ export default function makeCard() {
 
   const history = useHistory();
 
-  // const addCardList = async () => {
-  //   await
-  //   );
-  //   // history.goBack();
-  // };
-
   return (
     <Wrap>
       <h1>
