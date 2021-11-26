@@ -58,7 +58,7 @@ const CardWrap = styled.div`
 const Card = styled.div`
   width: 260px;
   height: 300px;
-  margin: 10px;
+  margin: 20px;
   /* text-align: center; */
   background-color: #999;
   border: 1px solid #000;
